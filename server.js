@@ -753,7 +753,7 @@ function detectMoodFromMessage(text) {
   return null; // Let the original mood stand
 }
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const HOST = process.env.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost';
 
 server.listen(PORT, HOST, () => {
